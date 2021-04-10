@@ -20,6 +20,6 @@ newString = ', '.join([item for item in stringList if item is not None and item 
 
 print(newString)
 
-splitString = newString.split(',')
+splitString = newString.split(', ')
 
 for item in splitString: print(item)
