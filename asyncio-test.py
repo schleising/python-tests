@@ -9,7 +9,7 @@ def count(input: int):
 async def main():
     loop = asyncio.get_event_loop()
     print(f'Main Loop: {loop}')
-    futures = [loop.run_in_executor(None, count, i) for i in range(3)]
+    futures = [loop.run_in_executor(None, count, i) for i in range(48)]
     for future in futures: print(future)
     time.sleep(1)
     for future in futures: await future
