@@ -13,7 +13,8 @@ async def main() -> None:
     print(2)
     results = await asyncio.gather(*futures)
     print(3)
-    print(results)
+    flatResults = [item for subitem in results for item in subitem]
+    print(flatResults)
 
 if __name__ == '__main__':
     asyncio.run(main())
