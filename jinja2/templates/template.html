@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{title}}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+  <!-- <script src="../static/js/bootstrap.min.js"></script>     -->
+  <script>
+    addEventListener("click", function (ev) {
+      console.log(ev.target.tagName)
+      if (ev.target.tagName === "TH") {
+        console.log("In if")
+        sortTable(ev.target);
+      }
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <h1>This is an example table</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <table class="table table-primary table-striped table-hover" id="table">
+          <thead>
+            <tr>
+              <th>Col1</th>
+              <th>Col2</th>
+              <th>Col3</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in data %}
+            <tr>
+              {% for _, val in item.items() %}
+              <td>{{val}}</td>
+              {% endfor %}
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
