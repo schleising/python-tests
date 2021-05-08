@@ -22,6 +22,7 @@
 }
 
 .sky-blue-box {
+  flex: 1 1 auto;
   background-color: skyblue;
   flex-direction: row;
   overflow-y: scroll;
