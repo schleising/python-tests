@@ -1,5 +1,30 @@
 from typing import List, Optional
 
+class BaseClass():
+    @classmethod
+    def PrintHello(cls) -> None:
+        print(f'Hello from {cls.__name__}')
+
+class NewClass(BaseClass):
+    def __init__(self) -> None:
+        super().__init__()
+        self.x = 1
+
+class NewerClass(BaseClass):
+    def __init__(self) -> None:
+        super().__init__()
+        self.y = 1.7
+
+def PrintClass(cls: BaseClass) -> None:
+    cls.PrintHello()
+
+oldClass = BaseClass()
+newClass = NewClass()
+newerClass = NewerClass()
+
+PrintClass(oldClass)
+PrintClass(newClass)
+PrintClass(newerClass)
 
 stringList: List[Optional[str]] = [
     'abc',
