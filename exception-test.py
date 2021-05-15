@@ -6,12 +6,12 @@ while True:
     try:
         number = int(inputValue, base=16)
     except ValueError as ve:
-        print(ve)
+        print(f'\'{inputValue}\' is not a valid hex number')
         continue
     else:
-        print('Number good...')
+        print(f'Number {number} good')
     finally:
-        if inputValue.lower() in ['quit', 'a']:
+        if inputValue.lower() in ['q', 'a']:
             sys.exit('Quitter')
 
     print(number)
