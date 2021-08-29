@@ -15,9 +15,15 @@ openList = [item for item in objList if item.status == 'Open']
 print()
 print(openList)
 
-counter = Counter([item.status for item in objList])
+statusList = [item.status for item in objList]
+statuses = set(statusList)
+
+counter = Counter(statuses)
+
+
+# counter = Counter([item.status for item in objList])
 
 print()
 print(counter)
 
-print(counter['Open'])
+print(counter.get('Open'))
