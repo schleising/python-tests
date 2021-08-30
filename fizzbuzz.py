@@ -1,5 +1,4 @@
-for i in range(100):
-    x = i + 1
+for x in range(1, 101):
     s = ''
 
     entries = {
