@@ -1,14 +1,15 @@
 for i in range(100):
     x = i + 1
     s = ''
-    fizz = 3
-    buzz = 5
 
-    if x % fizz == 0:
-        s = s + 'fizz'
+    entries = {
+        'fizz': 3,
+        'buzz': 5,
+    }
 
-    if x % buzz == 0:
-        s = s + 'buzz'
+    for entry, value in entries.items():
+        if x % value == 0:
+            s += entry
 
     if s == '':
         s = str(x)
