@@ -13,4 +13,4 @@ for x in range(1, 101):
     if s == '':
         s = str(x)
 
-    print(f'{x:3}: {s}')
+    print(f'{x:<3}: {s}')
