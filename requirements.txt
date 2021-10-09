@@ -2,6 +2,8 @@ certifi==2021.10.8
 chardet==4.0.0
 charset-normalizer==2.0.6
 idna==3.2
+Jinja2==3.0.2
+MarkupSafe==2.0.1
 numpy==1.21.2
 pandas==1.2.5
 pyChart.JS==0.3.0
