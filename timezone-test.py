@@ -1,6 +1,5 @@
 from datetime import datetime
 import locale
-import time
 from zoneinfo import ZoneInfo
 
 brightZoneInfo = ZoneInfo('GB')
@@ -21,3 +20,5 @@ print(brightTime.tzinfo.utcoffset(brightTime) if brightTime.tzinfo is not None e
 print(parisTime.tzinfo.utcoffset(parisTime) if parisTime.tzinfo is not None else '')
 
 print(locale.getlocale())
+
+print(datetime.now(ZoneInfo('UTC')))
