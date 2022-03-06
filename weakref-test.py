@@ -5,12 +5,12 @@ class Person:
 
 def test():
     kenny = Person()
-    finalize(kenny, print, 'You killed Kenny !!')
+    finalize(kenny, print, 'You killed Kenny !!') # type: ignore
 
 test()
 
 bobby = Person()
-finalize(bobby, print, 'Bobby Dead')
+finalize(bobby, print, 'Bobby Dead') # type: ignore
 
 print('Entering loop')
 
