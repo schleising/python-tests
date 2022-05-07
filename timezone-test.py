@@ -22,3 +22,8 @@ print(parisTime.tzinfo.utcoffset(parisTime) if parisTime.tzinfo is not None else
 print(locale.getlocale())
 
 print(datetime.now(ZoneInfo('UTC')))
+
+pT = datetime.now(tz=ZoneInfo('Europe/Paris'))
+
+print(pT)
+print(pT.astimezone())
