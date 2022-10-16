@@ -131,3 +131,4 @@ dmypy.json
 output/
 .DS_Store
 gmail.txt
+output.txt
