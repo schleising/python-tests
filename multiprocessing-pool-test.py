@@ -26,7 +26,7 @@ def mainLoop(myQueue: mp.Queue, myPConn: Connection, myCConn: Connection) -> Non
         i += 1
         sleep(1)
         print(f'Waiting {i}')
-        # x = myPConn.recv()
+        x = myPConn.recv()
         print(f'Got {x}')
 
 if __name__ == '__main__':
