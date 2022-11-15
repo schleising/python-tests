@@ -11,3 +11,14 @@ testDict: dict[int, dict[str, str]] = {
 
 with open('test.json', 'w', encoding='utf8') as outputFile:
     json.dump(testDict, outputFile, indent=2)
+
+with open('test.json', 'r', encoding='utf8') as inputFile:
+    newDict = json.load(inputFile)
+
+print(testDict)
+print(newDict)
+
+print(newDict == testDict)
+
+for itemA, itemB in newDict['4'].items():
+    print(itemA, itemB)
