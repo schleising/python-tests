@@ -18,6 +18,7 @@ GitPython==3.1.29
 idna==3.3
 Jinja2==3.1.2
 lizard==1.17.10
+Markdown==3.4.1
 MarkupSafe==2.1.1
 munch==2.5.0
 notify-run==0.0.15
