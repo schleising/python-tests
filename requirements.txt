@@ -27,6 +27,7 @@ packaging==21.3
 pandas==1.5.1
 Pillow==9.0.1
 pyChart.JS==0.3.0
+pydantic==1.10.2
 PyDriller==2.2
 pyerfa==2.0.0.1
 pyparsing==3.0.9
