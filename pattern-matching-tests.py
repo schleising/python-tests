@@ -36,10 +36,13 @@
 # testing1 = Testing()
 # testing1.UpdateScore(1, 9)
 
+from typing import Sequence
+
+
 list1 = ['Liverpool', 'Man City', 'Chelsea']
 list1 = [team.lower() for team in list1]
 
-def HandleCan(inputList: list[str]) -> None:
+def HandleCan(inputList: Sequence[str]) -> None:
     match inputList:
         case [teamA, 'beat', teamB] | [teamA, 'still', 'beat', teamB]:
             if teamA in list1 and teamB in list1:

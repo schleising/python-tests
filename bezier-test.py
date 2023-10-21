@@ -42,7 +42,7 @@ def _CalculateBezierPoint(t: float) -> tuple[float, float]:
         point[i] = ((1 - t)**3 * p0[i]) + (3 * (1 - t)**2 * t * p1[i]) + (3 * (1 - t) * t**2 * p2[i]) + (t**3 * p3[i])
 
     # Return the calculated point
-    return tuple(point)
+    return point[0], point[1]
 
 fps = 60
 transitionTime = 0.25
