@@ -1,0 +1,3182 @@
+{
+  "data": {
+    "SYNO.API.Auth": {
+      "maxVersion": 3,
+      "minVersion": 1,
+      "path": "auth.cgi"
+    },
+    "SYNO.API.Encryption": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "encryption.cgi"
+    },
+    "SYNO.API.Info": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "query.cgi"
+    },
+    "SYNO.AudioPlayer.Stream": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "AudioPlayer/stream.cgi"
+    },
+    "SYNO.Backup.Config.Backup": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Backup.Config.Restore": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ACL": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.AppNotify": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.AppPortal": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.AppPortal.Config": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.AppPriv": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.AppPriv.App": {
+      "maxVersion": 3,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.AppPriv.Rule": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.BandwidthControl": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.BandwidthControl.Protocol": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.BandwidthControl.Status": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.CMS": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.CMS.Cache": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.CMS.Info": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.CMS.Policy": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.CMS.ServerInfo": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.CMS.Token": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Capability.Feature": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Certificate": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Certificate.CRT": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Certificate.CSR": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Certificate.LetsEncrypt": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Certificate.LetsEncrypt.Account": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.CurrentConnection": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.DDNS.ExtIP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.DDNS.Provider": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.DDNS.Record": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.DDNS.Synology": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.DataCollect": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.DataCollect.Application": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.DataCollectGA": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.DataUpdate": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.DataUpdate.Schedule": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Desktop.Timeout": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Directory.Domain": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Directory.Domain.Conf": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Directory.Domain.Schedule": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Directory.LDAP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Directory.LDAP.BaseDN": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Directory.LDAP.Profile": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.DefaultPermission": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.Printer": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.Printer.BonjourSharing": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.Printer.Driver": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.Printer.Network": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.Printer.Network.Host": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.Printer.OAuth": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.Printer.USB": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.Storage.EUnit": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.Storage.SD": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.Storage.Setting": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.Storage.USB": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.Storage.eSATA": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.ExternalDevice.UPS": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.File": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.File.Thumbnail": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.AFP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.FTP": {
+      "maxVersion": 3,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.FTP.ChrootUser": {
+      "maxVersion": 2,
+      "minVersion": 2,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.FTP.SFTP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.FTP.Security": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.NFS": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.NFS.AdvancedSetting": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.NFS.IDMap": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.NFS.Kerberos": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.NFS.SharePrivilege": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.SMB": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.WebDAV": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.WebDAV.CalDAV": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.FileServ.WebDAV.CalDAV.Calendar": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Group": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Group.Member": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Hardware.BeepControl": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Hardware.DCOutput": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Hardware.DCOutput.Task": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Hardware.FanSpeed": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Hardware.Hibernation": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Hardware.LCM": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Hardware.Led": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Hardware.Led.Blink": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Hardware.Led.Status": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Hardware.PowerRecovery": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Hardware.PowerSchedule": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Hardware.ZRAM": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.MediaIndexing": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.MediaIndexing.IndexFolder": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.MediaIndexing.MediaConverter": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Model.App.Capability": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Model.Capability": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.MyDSCenter": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.MyDSCenter.Account": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.MyDSCenter.Login": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.MyDSCenter.Logout": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.MyDSCenter.Purchase": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.MyDSCenter.Unify": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW.QoS": {
+      "maxVersion": 3,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW.QoS.Priority": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW.QoS.Rules": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW.QoS.Rules.PortBased": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW.Traffic": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW.Traffic.Device": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW.Traffic.Domain": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW.Traffic.History": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW.Traffic.Protocol": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW.Traffic.ReportHistory": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW.Traffic.ReportHistory.Config": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW.Traffic.ReportTask": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.NGFW.Traffic.Setting": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.AutoTrunkPorts": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.AvailablePrivateIp": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Bond": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Bridge": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.ContentFilter": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.DHCPClient.ClassID": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.DHCPClient.ClientID": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.DHCPClient.Hostname": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.DHCPClient.Option": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.DHCPServer": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.DHCPServer.ClientList": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.DHCPServer.PXE": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.DHCPServer.Reservation": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.DHCPServer.WPAD": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.DsLite": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Eee": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Entity": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Ethernet": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.IPv6": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.IPv6.Router": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.IPv6.Router.Prefix": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.IPv6Tunnel": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Interface": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.LocalBridge": {
+      "maxVersion": 3,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.LocalNetwork": {
+      "maxVersion": 3,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.LocalNetwork.AutoCorrectSubnetConflict": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.LocalNetwork.IndexTable": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.LocalNetwork.PortPreemptable": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.LocalNetwork.SubnetConflictInterfaces": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.MACClone": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Mape": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.Beamforming": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.CTF": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.CaptivePortal": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.CaptivePortal.NoAuth": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.DOH": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.DependService": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.Device": {
+      "maxVersion": 5,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.Device.Notification": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.Device.WiFiInfo": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.InterferenceReduction": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.WelcomeInstaller": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.WelcomeInstaller.Mesh": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.WelcomeInstaller.Mode": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.NSM.WiFiInfo": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.PPPoE": {
+      "maxVersion": 3,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.PPPoE.Relay": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.PortConfStatus": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Proxy": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.BanDevice": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.ConnectionList": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.ConnectionStatus": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.CountryCode": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.DMZ": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.Gateway.List": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.IEEE1905": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.IGMP": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.IPTV": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.ISPSetting": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.Igmpproxy": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.MacFilter": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.MacFilter.Extend": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.ParentalControl": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.ParentalControl.DefaultPolicy": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.PkgList": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.PolicyRoute": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.Polling": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.PortForward": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.PortTrigger": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.Restart.Network": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.SecondaryWan": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.Static.Route": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.Topology": {
+      "maxVersion": 4,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.WANMAC": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Router.Zone.Wan": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.SmartWAN.Gateway": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.SmartWAN.General": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.SmartWAN.HealthyCheck": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.SmartWAN.LoadBalanceInfo": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.TTL": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Tool": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.TrafficControl.RouterRules": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.TrafficControl.Rules": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.UPnPServer": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.UPnPServer.Rules": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.URLFilter": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.USBModem": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.UrlBlocker.BlackList": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.UrlBlocker.BlockPage": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.UrlBlocker.BlockPage.Image": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.UrlBlocker.DefaultPolicy": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.UrlBlocker.Device": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.UrlBlocker.DeviceList": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.UrlBlocker.Profile": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.UrlBlocker.WhiteList": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.VPN": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.VPN.L2TP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.VPN.OpenVPN": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.VPN.OpenVPN.CA": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.VPN.OpenVPNWithConf": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.VPN.OpenVPNWithConf.Certs": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.VPN.PPTP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.WOL": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Wandetection": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Wifi.Client": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Wifi.Hotspot": {
+      "maxVersion": 3,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Wifi.Hotspot.DefaultSSID": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Wifi.Hotspot.FactoryDefaultSSID": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.Wifi.WPS": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Network.mDNS": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.Advance.CustomizedData": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.Advance.FilterSettings": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.Advance.Variables": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.Advance.WarningPercentage": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.CMS": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.CMS.Conf": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.DsmNotify": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.Mail": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.Mail.Auth": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.Mail.Conf": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.Push": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.Push.AuthToken": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.Push.Conf": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.Push.Mail": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.Push.Mobile": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.SMS": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.SMS.Conf": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Notification.SMS.Provider": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.OTP": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.OTP.Admin": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.OTP.EnforcePolicy": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Package": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Package.Control": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Package.Installation": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Package.Server": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Package.Setting": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Package.Uninstallation": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.PortForwarding": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.PortForwarding.Compatibility": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.PortForwarding.RouterConf": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.PortForwarding.RouterList": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.PortForwarding.Rules": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.PortForwarding.Rules.Serv": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.QuickConnect": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.QuickConnect.Permission": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Quota": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.RecycleBin": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.RecycleBin.User": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Region.Language": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Region.NTP": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Region.NTP.Server": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Report": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Report.Analyzer": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Report.Config": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Report.History": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SNMP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.AutoBlock": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.AutoBlock.Rules": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.DSM": {
+      "maxVersion": 3,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.DSM.Embed": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.DoS": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.Firewall.AllowSrmFromWan": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.Firewall.Conf": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.Firewall.Forward.Conf": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.Firewall.Forward.Rules": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.Firewall.Geoip": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.Firewall.Rules": {
+      "maxVersion": 2,
+      "minVersion": 2,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.Firewall.Rules.HitCount": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.Firewall.Service.BlockedStatus": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.VPNPassthrough": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Security.VPNPassthrough.Status": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SecurityScan.Conf": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SecurityScan.Operation": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SecurityScan.Status": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Service": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Service.Conf": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Service.PortInfo": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Share": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Share.Crypto": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Share.Crypto.Key": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Share.CryptoFile": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Share.Fileindex": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Share.Migration": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Share.Migration.Task": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Share.Permission": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Share.Snapshot": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Storage.Disk": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Storage.Pool": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Storage.Volume": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SupportForm.Account": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SupportForm.Form": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SupportForm.Log": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SupportForm.Service": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SyslogClient": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SyslogClient.CA": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SyslogClient.CustRule": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SyslogClient.FileTransfer": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SyslogClient.History": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SyslogClient.Log": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SyslogClient.Setting.Notify": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SyslogClient.Setting.Server": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SyslogClient.Setting.Storage": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SyslogClient.Status": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.System": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.System.NSM.RebootSchedule": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.System.Utilization": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.SystemDB": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.TFTP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.TaskScheduler": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Terminal": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Theme.Image": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Theme.Login": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Upgrade": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Upgrade.AutoUpgrade": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Upgrade.Group": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Upgrade.Group.Download": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Upgrade.GroupInstall": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Upgrade.GroupInstall.Network": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Upgrade.Patch": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Upgrade.Server": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Upgrade.Server.Download": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Upgrade.Setting": {
+      "maxVersion": 3,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.User": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.User.Home": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.User.PasswordPolicy": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.UserSettings": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Web.DSM": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Web.DSM.External": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Web.HTTP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Web.HTTP.Dependency": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Web.HTTP.VHost": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Web.PHP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Core.Web.PHP.Extension": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.DSM.Application": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/app.cgi"
+    },
+    "SYNO.DSM.AutoBlock": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/autoblock.cgi"
+    },
+    "SYNO.DSM.Connection": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/connection.cgi"
+    },
+    "SYNO.DSM.FindMe": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/findme.cgi"
+    },
+    "SYNO.DSM.Group": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/group.cgi"
+    },
+    "SYNO.DSM.Info": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/info.cgi"
+    },
+    "SYNO.DSM.LogViewer": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/logviewer.cgi"
+    },
+    "SYNO.DSM.Network": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/network.cgi"
+    },
+    "SYNO.DSM.Package": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/package.cgi"
+    },
+    "SYNO.DSM.PushNotification": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/notification.cgi"
+    },
+    "SYNO.DSM.Service": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/service.cgi"
+    },
+    "SYNO.DSM.System": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/system.cgi"
+    },
+    "SYNO.DSM.SystemLoading": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/system_loading.cgi"
+    },
+    "SYNO.DSM.User": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/user.cgi"
+    },
+    "SYNO.DSM.Volume": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/volume.cgi"
+    },
+    "SYNO.DSM.iSCSI": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "dsm/iscsi.cgi"
+    },
+    "SYNO.Entry.Request": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Entry.Request.Polling": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.FileStation.BackgroundTask": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "FileStation/background_task.cgi"
+    },
+    "SYNO.FileStation.CheckExist": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_checkDir.cgi"
+    },
+    "SYNO.FileStation.CheckPermission": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "FileStation/file_permission.cgi"
+    },
+    "SYNO.FileStation.Compress": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_compress.cgi"
+    },
+    "SYNO.FileStation.CopyMove": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "FileStation/file_MVCP.cgi"
+    },
+    "SYNO.FileStation.CreateFolder": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_crtfdr.cgi"
+    },
+    "SYNO.FileStation.Delete": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_delete.cgi"
+    },
+    "SYNO.FileStation.DirSize": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_dirSize.cgi"
+    },
+    "SYNO.FileStation.Download": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_download.cgi"
+    },
+    "SYNO.FileStation.Extract": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_extract.cgi"
+    },
+    "SYNO.FileStation.Favorite": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_favorite.cgi"
+    },
+    "SYNO.FileStation.Info": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/info.cgi"
+    },
+    "SYNO.FileStation.List": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_share.cgi"
+    },
+    "SYNO.FileStation.MD5": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_md5.cgi"
+    },
+    "SYNO.FileStation.OpenGoogleDrive": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_opengdrive.cgi"
+    },
+    "SYNO.FileStation.Rename": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_rename.cgi"
+    },
+    "SYNO.FileStation.Search": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_find.cgi"
+    },
+    "SYNO.FileStation.Sharing": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "FileStation/file_sharing.cgi"
+    },
+    "SYNO.FileStation.Snapshot": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_snapshot.cgi"
+    },
+    "SYNO.FileStation.Thumb": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_thumb.cgi"
+    },
+    "SYNO.FileStation.Upload": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/api_upload.cgi"
+    },
+    "SYNO.FileStation.VFS.Connection": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.FileStation.VFS.Profile": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.FileStation.VFS.Protocol": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.FileStation.VFS.User": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.FileStation.VirtualFolder": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FileStation/file_virtual.cgi"
+    },
+    "SYNO.FolderSharing.Download": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FolderSharing/file_download.cgi"
+    },
+    "SYNO.FolderSharing.List": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FolderSharing/file_share.cgi"
+    },
+    "SYNO.FolderSharing.Thumb": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "FolderSharing/file_thumb.cgi"
+    },
+    "SYNO.Mesh.Capability": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Led.Blink": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Led.Status": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Log": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Name": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Network.AdjustWifi": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Network.EthPortInfo": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Network.Info": {
+      "maxVersion": 3,
+      "minVersion": 3,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Network.SwapBackhaulBand": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Node": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Node.List": {
+      "maxVersion": 4,
+      "minVersion": 4,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Repeater.Count": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Setup.Addition": {
+      "maxVersion": 3,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Setup.Addition.Progress": {
+      "maxVersion": 3,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Setup.Removal": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Setup.Role": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Setup.Scan": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Setup.Scan.Result": {
+      "maxVersion": 4,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Status": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.System": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.System.HyFiMitigation": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.System.Info": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.System.Log": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.System.Log.Debug": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.System.RegionLock": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.System.Utilization": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Topology": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Upgrade": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Upgrade.Download": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Upgrade.Equal": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Upgrade.Patch": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Mesh.Upgrade.Patch.Check": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.NGFW.Traffic.Report.History": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.NGFW.Traffic.Report.Service": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.NGFW.Traffic.Report.Task": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Package": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.PersonMailAccount": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.PersonMailAccount.Contacts": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.PersonMailAccount.Mail": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Remote.Credential": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Remote.Credential.Challenge": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Remote.Credential.Info": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Remote.Credential.Verifier": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.ResourceMonitor.Setting": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.ConfigGroup": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.ConfigGroup.Avatar": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.ConfigGroup.Device": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.ConfigGroup.Device.Available": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.ConfigGroup.Device.TimeSpent": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.ConfigGroup.Interface": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.ConfigGroup.Reward": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.ConfigGroup.Reward.Ultra": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.ConfigGroup.TimeSpent": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.FilterConfig": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.FilterConfig.Color": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.FilterConfig.Domain": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.FilterConfig.DomainCategory": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.FilterConfig.DomainCategory.List": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.FilterConfig.ExceptionDomain": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.Profile": {
+      "maxVersion": 3,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.Profile.Schedule": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.Profile.Schedule.Blocktime": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.Profile.Schedule.Filter": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.Profile.Schedule.Timequota": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.AccessControl.Profile.Summary": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.BackupRestore": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.BlockPageStyle": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.BlockPageStyle.Image": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.Log": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.Log.Audit": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.Notification": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.Notification.Filter": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.Overview.Statistics": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.Overview.Timeline": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.Security": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.Security.Capability": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.Security.ExceptionList": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.Security.IpExceptionList": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.UnblockRequest.Request": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SafeAccess.UnblockRequest.Setting": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SocialAccount": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SocialAccount.Friend": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SocialAccount.Message": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.SocialAccount.Token": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.AppPriv": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Certificate": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Connectivity": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.License": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Log": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Log.Setting": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Migration": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Object": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Object.Ippool": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Overview": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.RemoteDesktop": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.RemoteDesktop.Client": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.RemoteDesktop.ClientUser": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Service": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Service.L2TP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Service.OpenVPN": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Service.PPTP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Service.SSLVPN": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Service.SSLVPN.Route": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Service.SSTP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Site2Site.IPsec": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Site2Site.IPsec.Interface": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Traffic": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.Traffic.Block": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.UserData": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.WebPortal": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.WebPortal.CustomRule": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.WebPortal.DDNS": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.WebPortal.Default": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.WebPortal.Favorite": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.WebPortal.History": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.WebPortal.MobileInfo": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.WebPortal.Priv": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.WebPortal.Sites": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.VPNPlus.WebPortal.User": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.CountryCode.Capability": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.CountryCode.Setting": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.Device": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.Global.Capability": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.Global.HWButton": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.MACFilter.Global": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.MACFilter.Profile": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.Network.Capability": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.Network.NetworkDisabled": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.Network.Schedule.Status": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.Network.Setting": {
+      "maxVersion": 2,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.Radio.Capability": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.Radio.Setting": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.Radio.Status": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.Station.Scan": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.Station.Setting": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.Station.Status": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.WPS": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.WPS.Main": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.WPS.Main.PBC": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.WPS.Main.PIN.AP": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.WPS.Main.PIN.Client": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    },
+    "SYNO.Wifi.WPS.Status": {
+      "maxVersion": 1,
+      "minVersion": 1,
+      "path": "_______________________________________________________entry.cgi",
+      "requestFormat": "JSON"
+    }
+  },
+  "success": true
+}
