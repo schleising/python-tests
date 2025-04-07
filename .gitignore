@@ -135,3 +135,6 @@ output.txt
 
 secrets/
 out.html
+hue_device_list.json
+hue_monitor.json
+hue_temperature_list.json
