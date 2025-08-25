@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import UTC, datetime
 import locale
 from zoneinfo import ZoneInfo
 
@@ -21,7 +21,7 @@ print(parisTime.tzinfo.utcoffset(parisTime) if parisTime.tzinfo is not None else
 
 print(locale.getlocale())
 
-print(datetime.now(ZoneInfo('UTC')))
+print(datetime.now(tz=UTC))
 
 pT = datetime.now(tz=ZoneInfo('Europe/Paris'))
 
